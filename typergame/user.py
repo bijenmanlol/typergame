@@ -11,7 +11,7 @@ class User:
             runningcommands.append(command.lower())
         self.commands = runningcommands
         self.functions.clear()
-        self.functions.write(f"Welcome to {self.projectname}")
+        self.functions.write(f"Welcome to {self.projectname}", newline = True)
         self.username = self.functions.ask("Choose a username")
         self.stats = {}
         self.functions.clear()
@@ -31,7 +31,7 @@ class User:
         if command.lower() in self.commands:
             return command.lower()
         else:
-            self.functions.write("That is not a valid option")
+            self.functions.write("That is not a valid option", newline = True)
             return
           
     def __str__(self):

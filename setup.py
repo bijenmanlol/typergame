@@ -7,7 +7,7 @@ long_description = (this_directory / "README.md").read_text()
 setup(
     name = 'typergame',
     packages = find_packages(),
-    version = '0.2.5',
+    version = '0.2.6',
     description = 'A library to easily set up typergames.',
     author = 'drooler',
     long_description = long_description,

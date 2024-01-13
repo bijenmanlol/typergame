@@ -12,7 +12,7 @@ Current version: V0.2.5
 
 - V0.2.1 - Added costum user stats
 
-- V0.2.2 to V0.2.5 - Bug fixes
+- V0.2.2 to V0.2.6 - Bug fixes
 
 ## How to set up
 
