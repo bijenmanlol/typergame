@@ -14,7 +14,7 @@ class Functions:
         else:
             os.system("clear")
 
-    def pause(self, delay: str):
+    def pause(self, delay: int):
 
         time.sleep(delay)
 

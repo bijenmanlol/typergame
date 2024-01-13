@@ -2,17 +2,17 @@
 
 ### By @drooler (https://bit.ly/drooler)
 
-Current version: V0.2.4
+Current version: V0.2.5
 
 ## Update logs
 
-V0.1.0 - First build
+- V0.1.0 - First build
 
-V0.1.1 - Bug fixes
+- V0.1.1 to V0.1.2 - Bug fixes
 
-V0.2.0 - Added costum user stats
+- V0.2.1 - Added costum user stats
 
-V0.2.1 to V0.2.4 - Bug fixes
+- V0.2.2 to V0.2.5 - Bug fixes
 
 ## How to set up
 
@@ -45,3 +45,9 @@ while running:
 
 ### 3- Build your game: add commands, add user stats,...
 
+## Links
+
+- Website: https://typergame.replit.app
+- Github: https://github.com/bijenmanlol/typergame
+- Pypi: https://pypi.org/project/typergame
+- Documentation: https://typergame.replit.app/docs
