@@ -3,7 +3,7 @@ from .functions import Functions
 class User:
 
     def __init__(self, projectname: str, commands: list, defaultdelay: int, defaultnewline: bool):
-        
+
         self.functions = Functions(defaultdelay, defaultnewline)
         self.projectname = projectname
         runningcommands = []
@@ -17,15 +17,15 @@ class User:
         self.functions.clear()
 
     def addstats(self, stat: str):
-
+        """Adds a user stat https://typergame.replit.app/docs?game.user.addstats()"""
         self.stats[stat.lower()] = 0
 
     def updatestats(self, stat: str, value: int):
-
+        """Updates a user stat https://typergame.replit.app/docs?game.user.updatestats()"""
         self.stats[stat.lower()] += value
 
     def run(self):
-
+        """Prompts user with list of commands and returns a user input, set as variable command https://typergame.replit.app/docs?game.user.run()"""
         command = self.functions.ask(f"Commands: {', '.join(self.commands)}")
         self.functions.clear()
         if command.lower() in self.commands:
@@ -35,7 +35,7 @@ class User:
             return
           
     def __str__(self):
-
+        """Returns list of userstats with username of user to be printed https://typergame.replit.app/docs?game.user"""
         runningstats = ""
         for stat in list(self.stats.keys()):
             runningstats += f"{stat.lower()}: {self.stats[stat]}\n"

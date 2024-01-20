@@ -8,18 +8,18 @@ class Functions:
         self.defaultnewline = defaultnewline
 
     def clear(self):
-
+        """Clears the console https://typergame.replit.app/docs?game.functions.clear()"""
         if os.name == "nt":
             os.system("cls")
         else:
             os.system("clear")
 
     def pause(self, delay: int):
-
+        """Delays the action coming after it https://typergame.replit.app/docs?game.functions.pause()"""
         time.sleep(delay)
 
     def write(self, text: str, delay: int = None, newline: bool = None):
-
+        """Writes the text arg out character by character https://typergame.replit.app/docs?game.functions.write()"""
         if delay == None:
             runningdelay = self.defaultdelay
         else:
@@ -36,7 +36,7 @@ class Functions:
             print()
 
     def ask(self, question: str, delay: int = None):
-
+        """Prints out question arg with the write function and returns a user input https://typergame.replit.app/docs?game.functions.ask()"""
         self.write(question, delay, True)
         return input("> ")
 

@@ -2,7 +2,7 @@
 
 ### By @drooler (https://bit.ly/drooler)
 
-Current version: V0.2.5
+Current version: V0.2.7
 
 ## Update logs
 
@@ -13,6 +13,8 @@ Current version: V0.2.5
 - V0.2.1 - Added costum user stats
 
 - V0.2.2 to V0.2.6 - Bug fixes
+
+- V0.2.7 - Added syntax documentation
 
 ## How to set up
 
