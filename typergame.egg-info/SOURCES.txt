@@ -2,6 +2,7 @@ README.md
 setup.py
 typergame/__init__.py
 typergame/functions.py
+typergame/inventory.py
 typergame/user.py
 typergame.egg-info/PKG-INFO
 typergame.egg-info/SOURCES.txt

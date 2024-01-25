@@ -35,9 +35,12 @@ class User:
             return
           
     def __str__(self):
-        """Returns list of userstats with username of user to be printed https://typergame.replit.app/docs?game.user"""
-        runningstats = ""
-        for stat in list(self.stats.keys()):
-            runningstats += f"{stat.lower()}: {self.stats[stat]}\n"
-        return f"{self.username}\n{(len(self.username) + 1) * '-'}\n{runningstats}"
+
+        if len(self.stats) != 0:
+            runningstats = ""
+            for stat in list(self.stats.keys()):
+                runningstats += f"{stat.lower()}: {self.stats[stat]}\n"
+            return f"{self.username} - stats\n{(len(self.username) + 9) * '-'}\n{runningstats}"
+        else:
+            return f"{self.username} - stats\n{(len(self.username) + 9) * '-'}\nNo user stats available\n"
     

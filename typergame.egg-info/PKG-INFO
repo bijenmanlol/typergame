@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: typergame
-Version: 0.2.7
+Version: 0.3.0
 Summary: A library to easily set up typergames.
 Author: drooler
 Description-Content-Type: text/markdown
@@ -9,7 +9,7 @@ Description-Content-Type: text/markdown
 
 ### By @drooler (https://bit.ly/drooler)
 
-Current version: V0.2.7
+Current version: V0.3.0
 
 ## Update logs
 
@@ -22,6 +22,8 @@ Current version: V0.2.7
 - V0.2.2 to V0.2.6 - Bug fixes
 
 - V0.2.7 - Added syntax documentation
+
+- V0.3.0 - Added inventory system
 
 ## How to set up
 

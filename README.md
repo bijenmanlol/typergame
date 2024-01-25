@@ -2,7 +2,7 @@
 
 ### By @drooler (https://bit.ly/drooler)
 
-Current version: V0.2.7
+Current version: V0.3.0
 
 ## Update logs
 
@@ -15,6 +15,8 @@ Current version: V0.2.7
 - V0.2.2 to V0.2.6 - Bug fixes
 
 - V0.2.7 - Added syntax documentation
+
+- V0.3.0 - Added inventory system
 
 ## How to set up
 
