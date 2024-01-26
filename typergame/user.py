@@ -1,7 +1,7 @@
 from .functions import Functions
 
 class User:
-
+    """Class for user operations https://typergame.replit.app/docs?class=user"""
     def __init__(self, projectname: str, commands: list, defaultdelay: int, defaultnewline: bool):
 
         self.functions = Functions(defaultdelay, defaultnewline)
@@ -13,19 +13,21 @@ class User:
         self.functions.clear()
         self.functions.write(f"Welcome to {self.projectname}", newline = True)
         self.username = self.functions.ask("Choose a username")
+        """Returns the username of user https://typergame.replit.app/docs?function=game.user.username"""
         self.stats = {}
+        """Returns the value of the stat when name of stat is given as key https://typergame.replit.app/docs?function=game.user.stats"""
         self.functions.clear()
 
     def addstats(self, stat: str):
-        """Adds a user stat https://typergame.replit.app/docs?game.user.addstats()"""
+        """Adds a user stat https://typergame.replit.app/docs?function=game.user.addstats()"""
         self.stats[stat.lower()] = 0
 
     def updatestats(self, stat: str, value: int):
-        """Updates a user stat https://typergame.replit.app/docs?game.user.updatestats()"""
+        """Updates a user stat https://typergame.replit.app/docs?function=game.user.updatestats()"""
         self.stats[stat.lower()] += value
 
     def run(self):
-        """Prompts user with list of commands and returns a user input, set as variable command https://typergame.replit.app/docs?game.user.run()"""
+        """Prompts user with list of commands and returns a user input, set as variable command https://typergame.replit.app/docs?function=game.user.run()"""
         command = self.functions.ask(f"Commands: {', '.join(self.commands)}")
         self.functions.clear()
         if command.lower() in self.commands:
