@@ -1,6 +1,6 @@
 # Typergame.py
 
-### By @drooler (https://bit.ly/drooler)
+### By @drooler (https://cutt.ly/drooler)
 
 Current version: V0.3.1
 
